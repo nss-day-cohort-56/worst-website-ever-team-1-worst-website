@@ -1,0 +1,10 @@
+body {
+    background-image: url("images/unicorn.jpeg");
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    background-color: pink;
+}
