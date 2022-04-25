@@ -1,5 +1,6 @@
 body {
     background-image: url("images/unicorn.jpeg");
+    font-family: 'Monoton', cursive;
 }
 
 .option {
@@ -7,6 +8,51 @@ body {
     justify-content: center;
     color: aqua;
     background-color: pink;
+}
+
+.nice {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.nice:hover {
+    transform: rotate(45deg); 
+    margin: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.thischeck:hover {
+        background-color: yellow;
+        zoom: 600%;
+}
+
+a {
+    color: black;
+}
+
+.success {
+    background-image: url('http://dl10.glitter-graphics.net/pub/590/590940trx4idmwj8.gif');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    }
+
+.aboutus {
+    display:flex;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+
+.move {
+    display:flex;
+    justify-content: left;
+}
+
+.claire, .rose, .stacy, .camille, .kiefer {
+    display: flex;
+    flex-direction: column;
 }
 
 .ad-gif {
