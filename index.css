@@ -50,3 +50,18 @@
     max-width:200%;
     max-height:200%;
   }
+body {
+    background-image: url("images/unicorn.jpeg");
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    background-color: pink;
+}
+
+.ad-gif {
+    display: flex;
+    justify-content: right;
+}
