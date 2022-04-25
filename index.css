@@ -1,5 +1,58 @@
+
+.nav-3{
+    background:#DB4444;
+  }
+  .nav-3 nav{
+    background:#FF5C5C;
+  }
+  .nav-3 .linktext{
+    font-size:1.3em;
+    text-align:center;
+    position:relative;
+    z-index:2;
+    color:yellow;
+    text-decoration:none;
+    font-family: 'Righteous', Arial, sans-serif;
+    text-transform:uppercase;
+    transition:0.3s ease-in-out;
+    -webkit-transition:5s ease-in-out;
+  }
+  .nav-3 .linktext:before{
+    display:inline-block;
+    content:attr(data-text);
+    position:absolute;
+    top:0px;
+    transition:10s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
+    opacity:1;
+    color:purple;
+    overflow:hidden;
+    max-width:0%;
+    max-height:0%;
+  }
+  .nav-3 .item{
+    position:relative;
+    display:inline-block;
+    height:35px;
+    padding-top:15px;
+    margin-left:25px;
+    margin-right:25px;
+    background:transparent;
+    z-index:2;
+    color:purple;
+    text-decoration:none;
+    font-family:Arial, sans-serif;
+    text-transform:uppercase;
+    transition:0.3s ease-in-out;
+    -webkit-transition:0.3s ease-in-out;
+  }
+  .nav-3 .item:hover .linktext:before{
+    max-width:200%;
+    max-height:200%;
+  }
 body {
     background-image: url("images/unicorn.jpeg");
+    font-family: 'Monoton', cursive;
 }
 
 .option {
@@ -54,4 +107,54 @@ body {
     text-align: center;
     font-size:large;
     color:blueviolet;
+}
+
+.nice {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.nice:hover {
+    transform: rotate(45deg); 
+    margin: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.thischeck:hover {
+        background-color: yellow;
+        zoom: 600%;
+}
+
+a {
+    color: black;
+}
+
+.success {
+    background-image: url('http://dl10.glitter-graphics.net/pub/590/590940trx4idmwj8.gif');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    }
+
+.aboutus {
+    display:flex;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+
+.move {
+    display:flex;
+    justify-content: left;
+}
+
+.claire, .rose, .stacy, .camille, .kiefer {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-gif {
+    display: flex;
+    justify-content: right;
 }
