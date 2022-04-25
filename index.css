@@ -8,3 +8,42 @@ body {
     color: aqua;
     background-color: pink;
 }
+.footer {
+    display: flex;
+    text-align: center;
+    align-content: flex-end;
+}
+.saladImage {
+    display: flex;
+    align-content: left;
+    justify-content: space-evenly;
+    padding-right: 1000px;
+}
+#footerID {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background: cornflowerblue;
+}
+.salad {
+    font-size: medium;
+    color:rgb(4, 246, 36)
+}
+.raffle {
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(4, 246, 36);
+    float: center;
+    position: absolute
+}
+.clickHere {
+    font-size: x-small;
+    color: rgb(4, 246, 36)
+}
+.copyright {
+    font-size:xx-large;
+    color:blueviolet;
+}
