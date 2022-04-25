@@ -50,6 +50,10 @@
     max-width:200%;
     max-height:200%;
   }
+
+  .countdown {
+      align-content: right;
+  }
 body {
     background-image: url("images/unicorn.jpeg");
 }
