@@ -52,7 +52,6 @@
   }
 body {
     background-image: url("images/unicorn.jpeg");
-    font-family: 'Monoton', cursive;
 }
 
 .option {
@@ -110,4 +109,21 @@ a {
 .ad-gif {
     display: flex;
     justify-content: right;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    background-color: yellow;
+}
+
+.hiring {
+    color: goldenrod;
+}
+
+.title {
+    background-attachment: scroll;
 }
