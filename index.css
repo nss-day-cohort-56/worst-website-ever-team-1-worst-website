@@ -61,6 +61,53 @@ body {
     color: aqua;
     background-color: pink;
 }
+.footer {
+    display: flex;
+    text-align: center;
+    align-content: flex-end;
+}
+.saladImage {
+    display: flex;
+    align-content: left;
+    justify-content: space-evenly;
+    padding-right: 1000px;
+}
+#footerID {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background: cornflowerblue;
+}
+.salad {
+    padding-right: 20px;
+    font-size: x-large;
+    color:rgb(4, 246, 36)
+}
+.raffle {
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(4, 246, 36);
+    float: center;
+    position: absolute
+}
+.clickHere {
+    display: flex;
+    text-decoration: line-through;
+    font-size: xx-small;
+    color: rgb(4, 246, 36)
+}
+.copyright {
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 500px;
+    font-family:'Water Brush', cursive;
+    text-align: center;
+    font-size:large;
+    color:blueviolet;
+}
 
 .nice {
     color: blue;
