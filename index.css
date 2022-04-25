@@ -9,6 +9,7 @@ body {
     background-color: pink;
 }
 
+
 .nice {
     color: blue;
     display: flex;
@@ -52,4 +53,9 @@ a {
 .claire, .rose, .stacy, .camille, .kiefer {
     display: flex;
     flex-direction: column;
+
+.ad-gif {
+    display: flex;
+    justify-content: right;
+
 }
