@@ -28,7 +28,8 @@ body {
     background: cornflowerblue;
 }
 .salad {
-    font-size: medium;
+    padding-right: 20px;
+    font-size: x-large;
     color:rgb(4, 246, 36)
 }
 .raffle {
@@ -40,10 +41,17 @@ body {
     position: absolute
 }
 .clickHere {
-    font-size: x-small;
+    display: flex;
+    text-decoration: line-through;
+    font-size: xx-small;
     color: rgb(4, 246, 36)
 }
 .copyright {
-    font-size:xx-large;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 500px;
+    font-family:'Water Brush', cursive;
+    text-align: center;
+    font-size:large;
     color:blueviolet;
 }
