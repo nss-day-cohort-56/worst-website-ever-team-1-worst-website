@@ -8,3 +8,8 @@ body {
     color: aqua;
     background-color: pink;
 }
+
+.ad-gif {
+    display: flex;
+    justify-content: right;
+}
