@@ -249,3 +249,30 @@ a {
 		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
 	}
 }
+
+
+.button {
+    border: 1px pink solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.quiz {
+    background-image: url("images/Psych.webp");
+}
