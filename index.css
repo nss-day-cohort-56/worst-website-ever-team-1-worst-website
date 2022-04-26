@@ -464,6 +464,10 @@ a {
     background-image: url("images/Psych.webp");
 }
 
+.gif {
+  width: 4rem;
+}
+
 .spirit-animal {
     color: white;
     background-color: #bc07f3;

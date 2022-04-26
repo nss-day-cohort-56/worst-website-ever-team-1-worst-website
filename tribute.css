@@ -1,0 +1,45 @@
+
+
+
+.teacherimg {
+    width: 20rem;
+}
+
+.teachers {
+    display: flex;
+    justify-content: center;
+}
+
+.steve, .hannah, .christina {
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.steve {
+    background-image: url('images/robot.webp');
+    color:aliceblue;
+    padding: 20px;
+}
+
+.hannah {
+    background-image: url('images/starwars.png');
+    background-size: contain;
+    color: green;
+    padding: 20px;
+}
+
+.christina {
+    background-image: url('images/math.jpeg');
+    color: aqua;
+    padding: 20px;
+}
+
+body {
+    background-image: url('images/thankyou.gif');
+    text-align: center;
+}
+
+.info {
+    background-color: aliceblue;
+}
