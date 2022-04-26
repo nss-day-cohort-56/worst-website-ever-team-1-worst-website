@@ -114,6 +114,7 @@
               width="300" height="200">
            </a>
            <h2 class="spirit-animal">Who is your spirit animal? Click to find out! 🐒🦄🐘</h2>
+
         </div>
         <div>
             <div class="stack">
@@ -129,6 +130,19 @@
             <img src="images/buy.gif">
             <br><br><br><br><br><br><br>
             <h2 class="hiring-title"><a href="tributepage.html">OUR AMAZING TEACHERS</a></h2>
+            <section class="chatBox">
+              <div class="chat-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <h1>Wanna Talk?</h1>
+                  
+                  <label for="msg"><b>Hello</b></label>
+                  <textarea placeholder="Type message.." name="msg" required></textarea>
+                  
+                  <button type="submit" class="btn">Go</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Stop</button>
+                </form>
+              </div>
+              </section>
             </div>
         </div>
         <div class="stack">
@@ -137,6 +151,7 @@
             <p class="hiring"><span>We are looking for a energetic web developer. Be sure to contact Stacy!</span></p>
           </div>
         <img src="images/coding.gif">
+      
         </div>
     </div>
 </div>
@@ -178,19 +193,7 @@ EDIT ON
   </div>
 </div>
 
-<section class="chatBox">
-<div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Wanna Talk?</h1>
-    
-    <label for="msg"><b>Hello</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
-    
-    <button type="submit" class="btn">Go</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Stop</button>
-  </form>
-</div>
-</section>
+
 
 </body>
 </html>
